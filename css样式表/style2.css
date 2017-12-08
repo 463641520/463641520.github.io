@@ -1,0 +1,82 @@
+*{padding:0px;margin:0px;} 
+.buttomtitle{width:230px;height:50px;background:url(../../%E9%A6%96%E9%A1%B5%E5%B1%95%E7%A4%BA%E7%9A%84%E6%BB%91%E5%8A%A8%E5%9B%BE%E7%89%87/toptitle.png)no-repeat;background-position:bottom;background-position:left;}
+
+/* accordion_container */
+.accordion_container{
+	margin:0 auto;
+	width:230px;
+	
+}
+.accordion_container .content, .accordion_container .tab{
+	width:200px;
+	color:#069;
+}
+.accordion_container .tab{
+	background:#fafafa;
+	height:30px;
+	float:left;
+	
+}
+.accordion_container .tab span{float:left;margin-top:10px;}
+.accordion_container .tab strong{ margin-left:15px;float:left;margin-top:10px;}
+.accordion_container .tab{
+	padding:10px;
+	
+}
+
+.accordion_container .content{
+	width:218px;
+	height:120px;
+	
+}
+.accordion_container .content img{
+	display:block;
+	width:160px;
+	height:90px;
+	float:left;
+	margin:10px 30px;
+}
+.accordion_container .first{
+	z-index: 5;
+	top: 2px;
+}
+.accordion_container .second{
+	z-index: 4;
+	top: 48px;
+}
+.accordion_container .third{
+	z-index:3;
+	top:98px;
+}
+.accordion_container .four{
+	z-index:2;
+	top:147px;
+}
+.accordion_container .file{
+	z-index:1;
+	top:196px;
+}
+.accordion{
+	position: relative;
+	overflow: hidden;
+	height: 370px;
+}
+.accordion > div{
+	position: absolute;
+	left: 0px;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	left: 3px;
+	cursor: pointer;
+	background-color: #FFF;
+	width: 218px;
+	height: 168px;
+}
+.hide{
+}
+.word{width:100px;height:80px;float:right;margin-top:25px;margin-right:20px;text-decoration:none;}
+.word p a{ color:#4B7196;line-height:20px;text-decoration:none;}
+.word p a:hover{
+	color:#F00;
+	text-decoration:none;
+}

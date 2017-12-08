@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>逛吃逛吃</title>
+	<link href="css样式表/style.css" rel="stylesheet" type="text/css" >
+    <link href="css样式表/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="css样式表/style2.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="css样式表/jquery.min.js"></script>
+<script type="text/javascript" src="css样式表/j-accordin.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.accordion').jaccordion();
+});
+</script>
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+/*body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";background:#FFF;}
+
+/* leftsead */
+#leftsead{width:131px;height:143px;position:fixed;top:500px;right:0px;}
+*html #leftsead{margin-top:258px;position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+#leftsead li{width:131px;height:53px;}
+#leftsead li img{float:right;border-bottom-left-radius:5px;border-top-left-radius:5px;}
+#leftsead li a{height:49px;float:right;display:block;min-width:47px;max-width:131px;}
+#leftsead li a .shows{display:block;}
+#leftsead li a .hides{margin-right:-166px;cursor:pointer;cursor:hand;}
+#leftsead li a.youhui .hides{display:none;position:absolute;right:216px;top:2px;}
+</style>
+
+</head>
+<body>
+<div class="container">
+  <div class="top">
+        <div class="top-left1">
+       <div class="top-left1-sina"><a href="#"><img src="../logo/微博.png"></a></div>
+       <div class="top-left1-qq"><a href="#"><img src="../logo/QQ.png"></a></div>
+       <div class="top-left1-wechat"><a href="#"><img src="../logo/微信.png"></a></div>
+     </div>
+     <div class="top-left2">
+      <a href="子页面/登录页面.html">登录</a><span>|</span><a href="子页面/注册.html">注册</a>
+     </div>
+     <div class="top-left3">
+     <img src="../logo/动图.gif" width="110" height="22"> </div>
+      <div class="top-right1-search">
+        <a href="#"></a>
+       </div>
+       <div class="top-right1-input">
+       <form><input type="text" name="search" placeholder="请输入目的地，例如：太原" class="input"></form>
+       </div>  
+     </div>
+  <div class="time">
+     <div id="test" align="right"></div>
+<script >
+setInterval("test.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+</script>
+    </div>
+     <div class="menu">
+       <div class="menu-left"></div>
+       <div class="menu-mid">
+         <div class="menu-font">
+          <a href="../guangchi.html">首页</a>  
+         </div>
+       </div>
+       <div class="menu-mid">
+       <div class="menu-font"><a href="子页面/目的地.html">目的地</a></div>
+       </div>
+       <div class="menu-logo"></div>
+       <div class="menu-mid">
+       <div class="menu-font"><a href="子页面/旅游攻略.html">旅游攻略</a></div>
+       </div>
+       <div class="menu-mid"><div class="menu-font"><a href="子页面/旅游游记.html">旅游游记</a></div></div>
+       <div class="menu-right"></div>
+     </div>
+  <div class="picture">
+  <div class="picture-left">
+        <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/2晋祠2.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/云冈石窟3.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/洪洞大槐树.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/鹳雀楼1.jpg" width="735" height="414"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/壶口瀑布2.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/皇城相府1.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/庞泉沟1.jpg" width="735" height="414"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/尧庙1.jpg" width="735" height="414"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/神潭大峡谷1.jpg" width="735" height="413"></div>
+            <div class="swiper-slide"><img src="../首页展示的滑动图片/应县木塔2.jpg" width="735" height="413"></div>
+        </div>
+        <!-- Add Pagination -->
+     <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+   <script src="css样式表/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+    
+     </div>
+     <div class="picture-right">
+<div class="accordion_container">
+	<div class="buttomtitle"></div>
+	<div class="accordion">
+		<div class="first current">
+			<div class="content"><img src="../首页展示的滑动图片/小图/2晋祠2.jpg" width="160" height="90"></div>
+			<div class="tab"><strong><img src="../首页展示的滑动图片/tea1.jpg" width="20" height="20">晋祠</strong>
+			</div>
+		</div>
+		
+		<div class="second">
+			<div class="content second"><img src="../首页展示的滑动图片/小图/云冈石窟3.jpg" width="160" height="90"></div>
+       <div class="tab"><strong><img src="../首页展示的滑动图片/tea2.jpg" width="20" height="20">云冈石窟</strong>
+			</div>
+		</div>
+		
+		<div class="third">
+			<div class="content third"><img src="../首页展示的滑动图片/小图/洪洞大槐树.jpg" width="160" height="90"></div>
+			<div class="tab"><strong><img src="../首页展示的滑动图片/tea3.jpg" width="20" height="20">洪洞大槐树</strong>
+			</div>
+		</div>
+		
+		<div class="four">
+			<div class="content four"><img src="../首页展示的滑动图片/小图/鹳雀楼1.jpg" width="190" height="107"></div>
+			<div class="tab"><strong><img src="../首页展示的滑动图片/tea4.jpg" width="20" height="20">鹳雀楼</strong>
+			</div>
+		</div>
+		
+		<div class="file">
+			<div class="content file"><img src="../首页展示的滑动图片/小图/壶口瀑布2.jpg" width="160" height="90"></div>
+			<div class="tab"><strong><img src="../首页展示的滑动图片/tea5.jpg" width="20" height="20">壶口瀑布</strong>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</div>
+     </div>
+    <div class="main">
+     <div class="main-top">
+       <div class="main-top-left">
+       <h1>当季热推</h1>
+       </div>
+       <div class="main-top-right">
+       <a href="子页面/目的地.html">
+       <h3>查看更多<<</h3>
+       </a>
+       </div>
+     </div>
+      <div class="main-1">
+       <div class="main-1-top"><a href="子页面/目的地-太原.html">
+        <img src="../首页展示的滑动图片/中图/太原.jpg" width="276" height="155"> </a>
+        <h2>太原</h2>
+        </div>
+       <div class="main-1-mid">
+        <div class="main-1-mid-1">
+         <img src="../首页展示的滑动图片/中图/双塔寺1.jpg" width="82" height="61"> </div>
+        <div class="main-1-mid-1">
+         <img src="../首页展示的滑动图片/中图/晋祠3.jpg" width="82" height="62"> </div>
+        <div class="main-1-mid-1">
+         <img src="../首页展示的滑动图片/中图/蒙山大佛1.jpg" width="82" height="61"> </div>
+       </div> 
+       <div class="main-1-bottom">
+         <div class="main-1-bottom-font">
+           太原，山西省省会，简称并（bīng），别称并州，是国家历史文化名城、国家园林城市、太原都市圈核心城市，是山西省政治、经济、文化、交通和国际交流中心。享有“控带山河，踞天下之肩背”，“襟四塞之要冲，控五原之都邑“的美誉。</div>
+       </div>
+      </div>
+      <div class="main-1">
+       <div class="main-1-top"><a href="子页面/目的地-晋中.html"><img src="../首页展示的滑动图片/中图/晋中.jpg" width="276" height="155"></a>
+         <h2>晋中</h2>
+        </div>
+       <div class="main-1-mid">
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/平遥古城1.jpg" width="82" height="61"></div>
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/平遥古城墙1.jpg" width="82" height="62"></div>
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/乔家大院.jpg" width="82" height="62"></div>
+       </div> 
+       <div class="main-1-bottom">
+         <div class="main-1-bottom-font">
+         晋中，位于山西省中部，是山西省下辖的一个地级市，是一座文化底蕴深厚，古老而活跃的现代化城市，是晋商故里，纵横商界600年。在这里曾经创造过举世瞩目的经济奇迹。西方学者把山西商人同犹太商人相媲美。 </div>
+       </div>
+      </div>
+      <div class="main-1">
+       <div class="main-1-top"><a href="子页面/目的地-阳泉.html"><img src="../首页展示的滑动图片/中图/阳泉.jpg" width="276" height="155"></a>
+         <h2>阳泉</h2>
+        </div>
+       <div class="main-1-mid">
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/藏山3.jpg" width="82" height="62"></div>
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/娘子关3.jpg" width="82" height="62"></div>
+        <div class="main-1-mid-1"><img src="../首页展示的滑动图片/中图/狮脑山.jpg" width="82" height="62"></div>
+       </div> 
+       <div class="main-1-bottom">
+         <div class="main-1-bottom-font">
+           阳泉，是山西省地级市，位于山西省东部，是一座新兴工业城。 它是山西省第三大城市。市区桃河横贯，境内山川叠翠，矿藏资源丰富，是中国著名的无烟煤产地。它是中国重要的矿产集中区，境内矿藏资源丰富，开发历史悠久，素有“煤铁之乡”之誉。
+         </div>
+       </div>
+      </div>
+      <p>&nbsp;</p>
+      <div class="main-bottom">
+        <div class="main-bottom-1">
+         <h4>关于我们</h4>
+          <ul>
+            <li><a href="#">攻略频道简介</a></li>
+            <li><a href="#">网站地图</a></li>
+           <li><a href="#">用户协议</a></li>
+          </ul>
+        </div>
+        <div class="main-bottom-1">
+         <h4>联系我们</h4>
+          <ul>
+            <li><a href="#">意见反馈</a></li>
+            <li><a href="#">加入我们</a></li>
+          </ul>
+        </div>
+        <div class="main-bottom-1">
+         <h4>发现你的旅行</h4>
+          <ul>
+            <li><a href="子页面/目的地.html">了解目的地</a></li>
+            <li><a href="子页面/旅游游记.html">阅读精彩游记</a></li>
+            <li><a href="子页面/旅游攻略.html">查看攻略</a></li>
+          </ul>
+        </div>
+        <div class="main-bottom-1">
+         <h4>分享你的旅行</h4>
+          <ul>
+            <li><a href="子页面/旅游游记.html">发表游记</a></li>
+            <li><a href="#">点评去过的景点</a></li>
+          </ul>
+        </div>
+        <div class="main-bottom-1">
+         <h4>攻略官方微博</h4>
+          <ul>
+            <li><a href="#"><img src="../logo/微博.png" width="22" height="22">加关注</a></li>
+          </ul>
+        </div>
+        <div class="main-bottom-2">
+        <div class="main-top">
+         <h1>友情链接</h1></div>
+         <div class="main-bottom-2-logo">
+         <a href="http://www.lvmama.com/">
+           <img src="../logo/驴妈妈logo.png" width="170" height="71"></a> </div>  
+           <div class="main-bottom-2-logo">
+           <a href="http://www.mafengwo.cn/">
+           <img src="../logo/马蜂窝logo.png" width="170" height="71"></a> </div>
+           
+           <div class="main-bottom-2-logo">
+           <a href="http://www.ctrip.com/">
+            <img src="../logo/携程logo.png" width="170" height="71">
+            </a> </div>
+          <div class="main-bottom-2-logo">
+          <a href="http://www.tuniu.com/">
+          <img src="../logo/途牛logo.png" width="170" height="71">
+          </a> </div>
+          <div class="main-bottom-2-logo">
+           <a href="https://www.alitrip.com/"><img src="../logo/飞猪logo.png" width="170" height="71"> 
+           </a></div>
+      </div>
+         </div>
+  </div>
+    </div> 
+    <div class="footer">
+     地址：山西省晋中市太原师范学院 邮编：030619<br/>
+  Email:xcz@1qq.com<br/>
+  Copyright&copy;2017-2027 冰山工作室 All Right Reserved<br/>
+    </div>
+    
+<div id="leftsead">
+	<ul>
+	     <li>
+			<a id="top_btn">
+				<img src="../首页展示的滑动图片/l06.png" width="47" height="49" class="hides"/>
+				<img src="../首页展示的滑动图片/ll06.png" width="47" height="49" class="shows" />
+			</a>
+		</li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+$(document).ready(function(){
+
+	$("#leftsead a").hover(function(){
+		if($(this).prop("className")=="youhui"){
+			$(this).children("img.hides").show();
+		}else{
+			$(this).children("img.hides").show();
+			$(this).children("img.shows").hide();
+			$(this).children("img.hides").animate({marginRight:'0px'},'slow'); 
+		}
+	},function(){ 
+		if($(this).prop("className")=="youhui"){
+			$(this).children("img.hides").hide('slow');
+		}else{
+			$(this).children("img.hides").animate({marginRight:'-143px'},'slow',function(){$(this).hide();$(this).next("img.shows").show();});
+		}
+	});
+
+	$("#top_btn").click(function(){if(scroll=="off") return;$("html,body").animate({scrollTop: 0}, 600);});
+
+});
+</script>
+
+
+   
+</div>
+ 
+</body>
+</html>

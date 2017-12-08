@@ -1,0 +1,143 @@
+/* CSS Document */
+body{
+	margin:0 auto;
+}
+.container{
+	width: 1000px;
+	height:auto;
+	margin:0 auto;
+}
+.top{
+	width:980px;
+	height:auto;
+	float:left;
+}
+.top-left{
+	width:142px;
+	height:68px;
+	float:left;
+	background:url(../../logo/logo3.png);
+	margin:10px 0;
+}
+.top-right{
+	width:700px;
+	height:27px;
+	background:rgba(255,255,153,0.5);
+	border:solid rgba(153,102,0,0.5) 1px;
+	float:left;
+	margin:24px 60px;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:27px;
+}
+.top-right-1{
+	width:20px;
+	height:20px;
+	float:left;
+	margin:3.5px;
+}
+.main{
+	width:980px;
+	height:auto;
+	float:left;
+}
+.main-left{
+	width:500px;
+	height:323px;
+	background:url(../../%E9%A6%96%E9%A1%B5%E5%B1%95%E7%A4%BA%E7%9A%84%E6%BB%91%E5%8A%A8%E5%9B%BE%E7%89%87/%E5%B9%B3%E9%81%A5%E5%8F%A4%E5%9F%8E1_%E5%89%AF%E6%9C%AC.png);
+	float:left;
+	margin:20px;
+}
+.main-right{
+	width:430px;
+	height:auto;
+	border:solid #900 1px;
+	float:left;
+
+}
+h1{
+	font-family:"宋体";
+	font-size:28px;
+	font-weight:bold;
+	color:#000;
+	text-align:left;	
+}
+.main-right1{
+	width:400px;
+	height:auto;
+	float:left;
+	margin:5px 15px;
+	font-family:"宋体";
+	font-size:28px;
+	font-weight:bold;
+	color:#333;
+	text-align:left;
+	border-bottom:solid #666 1px;	
+}
+.main-right1 a{
+	text-decoration:none;
+	color:#39C;
+
+}
+.main-right1 a:hover{
+	text-decoration:none;
+	color:#366;
+}
+.main-right2{
+	width:380px;
+	height:auto;
+	float:left;
+	margin:20px 25px;
+	font-family:"黑体";
+	font-size:16px;
+	color:#333;
+}
+.input{
+	width:220px;
+	height:25px;
+}
+.main-right2 a{
+	text-decoration:none;
+	color:#33F;
+	font-size:14px;
+}
+.main-right2 a:hover{
+	text-decoration:none;
+	color:#006;
+	font-weight:bold;
+}
+.main-right3{
+	width:200px;
+	height:40px;
+	float:left;
+	margin:35px 110px;
+	text-align:center;
+	line-height:40px;
+	font-family:"黑体";
+	font-size:25px;
+	color:#333;
+	border:solid #960 1px;
+}
+.main-right3 a{
+	text-decoration:none;
+	background:#C90;
+	display:block;
+	color:#fff;
+}
+.main-right3 a:hover{
+	text-decoration:none;
+	background:#FC3;
+	font-weight:bold;
+}
+.footer{
+	width:980px;
+	clear:both;
+	height:65px;
+	margin:0 auto;
+	padding:10px 0 0 0;
+	background:url(../../logo/footer_bg.gif)repeat-x;
+	font-size:13px;
+	color:#666;
+	text-align:center;
+}	
+	
